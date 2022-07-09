@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif SC', serif;
+  }
+
+
+  html {
+    background-color: antiquewhite;
+    scroll-behavior: smooth;
+  }
+
+  .header {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 40px 100px;
+    color: rgb(229, 229, 229);
+    border-bottom: double rgb(255, 255, 255) 1px;
+    background-color: rgba(245, 241, 241, 0.5);
+  }
+
+  .header .navLinks {
+      position: absolute;
+      margin-top: 2px;
+      left: 1000px;
+  }
+
+  .header .navLinks a{
+    border-radius: 15px;
+    padding: 5px;
+    color: rgb(200, 8, 8);
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.text-box{
+    background-image: url(../img/万盛背景图.png);
+    background-size: auto 100%;
+    box-shadow: 0 0 45px #000000;
+    background-color: rgba(33, 110, 218, 0.5);
+    padding-left: 320px;
+    padding-bottom: 60px;
+    padding-top: 120px;
+
+}
+
+.text-box p1{
+
+    font-size: 150px;
+    font-weight: 400;
+    color: rgb(119, 202, 118);
+}
+
+.text-box .line{
+    width: 360px;
+    height: 2px;
+    background: rgb(119, 202, 118);
+}
+
+.text-box p2{
+    font-size: 25px;
+    font-weight: 200;
+    color: rgb(119, 202, 118);
+}
+
+
+/* 侧边导航栏 */
+.shell {
+    margin-top:90px;
+    margin-left:10px;
+    position: fixed;
+    width: 100px;
+    /* height: 700px; */
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(216, 220, 230,0.3);
+    border-radius: 10px;
+    transition: .3s;
+    overflow: hidden;
+    float: left;
+    z-index: 100;
+  }
+  /* 侧边导航栏图标 */
+  .shell img{
+    position: relative;
+    opacity: 0.85;
+    border-radius: 9px;
+            width: 50px;
+            height: 50px;
+    
+        }
+  /* 侧边导航栏a标签样式 */
+        .box{
+            display:flex;
+            height: 90px;
+            width: 75%;
+            margin: 19px;
+            border-radius: 5px;
+            transition: .3s;
+            color: rgb(216, 216, 233);
+        }
+  /* 侧边导航栏展开后的模块 */
+        .box span{
+            color: rgb(200, 8, 8);
+            position: relative;
+            padding-top: 20px;
+            padding-left: 8px;
+            font: 400 20px '';
+            opacity: 0;
+            transition: .1s;
+        }
+        /* 展开宽度  */
+        .shell:hover{
+            width: 240px;
+            /* height: 100%; */
+        }
+  /* 展开后span样式 */
+        .shell:hover span{
+            opacity: 1;
+        }
+         /* 鼠标悬浮时a标签样式 */
+  .box:hover{
+            background-color: rgb(247, 249, 252);
+            color: rgb(200, 8, 8);
+  }
+
+.video{
+    width: 900px;
+    padding: 50px;
+    padding-left: 170px;
+
+}
+.clear{
+    background-color:rgb(239, 246, 230);
+    padding: 25px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 50px;
+    margin-bottom: 60px;
+    overflow: hidden;
+    border: 3px solid white;
+}
+
+.clear .img-uniform{
+    padding: 15px;
+    float: left;
+    width:350px;
+    height:430px;
+}
+
+.font-large{
+    margin-top: 20px;
+    font-size: 30px;
+    color: rgb(22, 22, 21);
+}
+
+.biaoti{
+    padding: 60px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 50px;
+    background-image: linear-gradient(120deg,#37de7f 20%,#197dc4 100%);
+    text-align:center;
+    border-radius: 20px;
+}
+
+.biaoti p{
+    font-size: 50px;
+    font-family: 400;
+    color: #101211;
+}

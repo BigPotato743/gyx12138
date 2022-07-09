@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif SC', serif;
+  }
+
+  html {
+    background-color: antiquewhite;
+    scroll-behavior: smooth;
+  }
+
+  .header {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 40px 100px;
+    color: rgb(229, 229, 229);
+    border-bottom: double rgb(255, 255, 255) 1px;
+    background-color: rgba(245, 241, 241, 0.5);
+  }
+
+  .header .navLinks {
+      position: absolute;
+      margin-top: 2px;
+      left: 1000px;
+  }
+  
+  .header .navLinks a{
+    border-radius: 15px;
+    padding: 5px;
+    color: rgb(200, 8, 8);
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.text-box{
+    background-image: url(../img/万盛背景图.png);
+    background-size: auto 100%;
+    box-shadow: 0 0 45px #000000;
+    background-color: rgba(33, 110, 218, 0.5);
+    padding-left: 320px;
+    padding-bottom: 60px;
+    padding-top: 120px;
+
+}
+
+.text-box p1{
+
+    font-size: 150px;
+    font-weight: 400;
+    color: rgb(119, 202, 118);
+}
+
+.text-box .line{
+    width: 360px;
+    height: 2px;
+    background: rgb(119, 202, 118);
+}
+
+.text-box p2{
+    font-size: 25px;
+    font-weight: 200;
+    color: rgb(119, 202, 118);
+}
+
+
+.baogao {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.baogao p1{
+    margin-left: 320px;
+    font-size: 44px;
+}
+
+.baogao .line{
+    margin-top: 40px;
+    margin-bottom: 5px;
+    width: auto;
+    height: 2px;
+    background: rgb(246, 119, 119);
+}
+
+.baogao p3{
+    margin-left: 50px;
+    font-size: 28px;
+    line-height: 38px;
+}
+
+.baogao p2{
+    margin-left: 50px;
+    font-size: 22px;
+    line-height: 38px;
+}
